@@ -16,8 +16,17 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css"/>
         <style>
-          a{color:black}
-          a:hover{color:black}
+            .for-small-devices-2{display:none}
+            @media screen and (max-width:1200px){
+                .hide-big-container{display: none;}
+            }
+            @media screen and (max-width:810px){
+                .hide-big-container-1{display: none;}
+                .for-small-devices-2{display:block}
+            }
+            a:hover{color:black}
+            a{color:black}
+
         </style>
     </head>
     <body>
@@ -38,7 +47,7 @@
                   <li class="pre-profile-1 pt-2 pb-2"><a href="#/" class="color" style="font-weight:600">Order History</a></li>
                   <li class="pre-profile-1 pt-2 pb-2"><a href="#/" class="color" style="font-weight:600">Change Password</a></li>
                   <li class="pre-profile-1 pt-2 pb-2"><a href="#/" class="color" style="font-weight:600">Update Profile</a></li>
-                  <li class="pre-profile-1 pt-2 pb-2"><a href="login-form.html" class="color" style="font-weight:600">Log In</a></li>
+                  <li class="pre-profile-1 pt-2 pb-2"><a href="login.html" class="color" style="font-weight:600">Log In</a></li>
                 </ul>
                 <span class="menu-1"><a href="ecommerce.html" class="color">home</a></span>
                 <span class="menu"><a href="ecommerce-price-men.html" class="color">products</a></span>
@@ -59,7 +68,7 @@
                   <li class="pt-3"style="margin-left:-5%"><a href="about-us.html#/" class="color">about</a></li>
                   <li class="pt-3"style="margin-left:-5%"><a href="contact-form.html" class="color">contact</a></li>
                   <li class="pt-3"style="margin-left:-5%"><a href="#/" class="color">Update profile</a></li>
-                  <li class="pt-3"style="margin-left:-5%"><a href="login-form.html" class="color">Log In</a><span><a href="#" class="color"><img src="Images/log-in..png" class="log-in"></a></span></li>
+                  <li class="pt-3"style="margin-left:-5%"><a href="login.html" class="color">Log In</a><span><a href="#" class="color"><img src="Images/log-in..png" class="log-in"></a></span></li>
                 </ul>
             </div>
         </div>
@@ -108,6 +117,19 @@
               
               <!--front look-->
               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12 pl-0" style="border-left:1px solid grey">
+                <div class="container-fluid hide-big-container-1">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 text-right">
+                            <span><img src="Images/big-sale-2.jpg" height="200px"></span>
+                        </div>
+                        <div class="col-xl-4 col-lg-8 col-md-8 col-sm-6 col-12 ">
+                            <span><img src="Images/big-sale.jpg" height="150px"></span>
+                        </div>
+                        <div class="col-xl-4 pl-5 hide-big-container">
+                            <span><img src="Images/big-sale-1.jpg" height="200px"></span>
+                        </div>
+                    </div>
+                  </div>
                 <div class="container large-right-sider">
                   <div class="row pt-5 hide-front-page">
                     <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6  text-center">
@@ -268,6 +290,7 @@
                       </div>
                     </div>
                     
+                  
                   </div>
                   
                   <!--100-200 page end-->
@@ -325,7 +348,7 @@
                       </div>
                       <div class="col-xl-3 col-lg-4 col-md-4 text-center">
                         <a href="for-each-image.html"><img src="Images/two-hundred-men-2.jpg" class="img-men" style="border-radius:20px;height:180px"></a>
-                        <a href="#/"><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
+                        <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
                       </div>
                       <div class="col-xl-3 col-lg-4 col-md-4 text-center hide-containt-small-device">
                         <a href="for-each-image.html"><img src="Images/two-hundred-boys-1.jpg" class="img-men" style="border-radius:20px;height:180px"></a>
@@ -350,8 +373,7 @@
                         <a href="for-each-image.html"><img src="Images/two-hundred-girls-2.jpg" class="img-men" style="border-radius:20px;height:180px"></a>
                         <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
                       </div>
-                    </div>
-                  
+                    </div>    
                   </div>
                   
                   <!--200-300 page end-->
@@ -413,7 +435,7 @@
                       </div>
                       <div class="col-xl-3 col-lg-4 col-md-4 text-center hide-containt-small-device">
                         <a href="for-each-image.html"><img src="Images/three-hundred-men-4.jpg" class="img-men" style="border-radius:20px;height:180px"></a>
-                        <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;187.00</span></a>
+                        <a href="for-each-image.html/"><span class="image-lable">tradesional dress<br>&#8377;187.00</span></a>
                       </div>
                     </div>
                     <!--fourth row-->
@@ -435,6 +457,7 @@
                         <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
                       </div>
                     </div>
+                  
                   </div>
 
                   <!--300-400 page end-->
@@ -629,7 +652,7 @@
           <!--comment-->
           <!--filter-->
           <div class="container-fluid hide-me-for-font">
-            <div class="row first-next-page pt-4 mt-3">
+            <div class="row first-next-page pt-4 mt-1">
               <div class="col-12 text-right pr-5 filter-button">
                 <div class="dropdown">
                   <button class="filter-toggler"><i class="fa fa-filter" aria-hidden="true"></i>filter</button>
@@ -667,6 +690,13 @@
           </div>
           <!--filter-->
           <!--middle part-->
+          <div class="container-fluid for-small-devices-2">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span><img src="Images/big-sale.jpg" height="150px"></span>
+                </div>
+            </div>
+          </div>
           <div class="container mt-5 pt-2 for-small-devices">
             <div class="row">
               <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
@@ -814,7 +844,7 @@
               </div>
               <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
                 <a href="for-each-image.html"><img src="Images/two-hundred-men-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-                <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
+                <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;133.00</span>
               </div>
             </div>
           </div>
@@ -827,46 +857,46 @@
           <!--first row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/three-hundred-boys.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;130.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-boys.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;130.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/three-hundred-men.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-men.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/three-hundred-ladies.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;.150.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-ladies.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;.150.00</span></a>
             </div>
           </div>
           <!--second row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/three-hundred-men-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-men-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/three-hundred-ladies-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;100.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-ladies-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;100.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/three-hundred-boys-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;135.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-boys-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;135.00</span></a>
             </div>
           </div>
           <!--third row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/three-hundred-ladies-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;155.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-ladies-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;155.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/three-hundred-men-3.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;176.00</span</a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-men-3.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;176.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/three-hundred-boys-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/three-hundred-boys-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
             </div>
           </div>
         </div>
@@ -879,46 +909,46 @@
           <!--first row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/four-hundred-men.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;130.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-men.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;130.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/four-hundred-boys.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-boys.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/four-hundred-men-1.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;.150.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-men-1.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;.150.00</span></a>
             </div>
           </div>
           <!--second row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/four-hundred-boys-1.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-boys-1.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/four-hundred-ladies.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;100.00</span></a>
+              <a href="#/"></a><img src="Images/four-hundred-ladies.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;100.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/four-hundred-men-2.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;135.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-men-2.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;135.00</span></a>
             </div>
           </div>
           <!--third row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/four-hundred-girls-1.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;155.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-girls-1.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;155.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/four-hundred-men-3.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;176.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-men-3.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;176.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/four-hundred-men-4.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/four-hundred-men-4.jpeg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
             </div>
           </div>
         </div>
@@ -931,46 +961,46 @@
           <!--first row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/five-hundred-men.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;130.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-men.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;130.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/five-hundred-boys.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-boys.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;120.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/five-hundred-men-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;.150.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-men-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;.150.00</span></a>
             </div>
           </div>
           <!--second row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/five-hundred-men-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-men-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/five-hundred-boys-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;100.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-boys-1.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;100.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/five-hundred-ladies.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;135.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-ladies.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;135.00</span></a>
             </div>
           </div>
           <!--third row-->
           <div class="row pt-5">
             <div class="col-md-4 col-sm-6 col-12 text-center pb-5">
-              <a href="for-each-image.html"><img src="Images/five-hundred-girls-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;155.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-girls-2.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;155.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center">
-              <a href="for-each-image.html"><img src="Images/five-hundred-men-3.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;176.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-men-3.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;176.00</span></a>
             </div>
             <div class="col-md-4 col-sm-6 col-12 text-center hide-content">
-              <a href="for-each-image.html"><img src="Images/five-hundred-men-4.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
-              <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
+              <a href="for-each-image.html"></a><img src="Images/five-hundred-men-4.jpg" class="img-men" style="border-radius:20px;height:180px"><br></a>
+              <a href="for-each-image.html"></a><span class="image-lable">tradesional dress<br>&#8377;133.00</span></a>
             </div>
           </div>
         </div>
@@ -1004,7 +1034,7 @@
             </div>
             <div class="row single-slider pt-5">
               <div class="col text-center">
-                <a href="for-each-image.html"><span style="display:flex;justify-content: center;"><img src="Images/boys-dress-1.jpeg" height="250px" style="background-color:black"></span></a>
+                <span style="display:flex;justify-content: center;"><a href="for-each-image.html"><img src="Images/boys-dress-1.jpeg" height="250px" style="background-color:black"></a></span>
                  <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a> 
               </div>
               <div class="col  text-center">
@@ -1017,7 +1047,7 @@
               </div>
               <div class="col text-center">
                 <a href="for-each-image.html"><span style="display:flex;justify-content: center;"><img src="Images/mens-dress-4.jpg" height="250px"></span></a>
-                <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a> 
+                 <a href="for-each-image.html"><span class="image-lable">tradesional dress<br>&#8377;180.00</span></a> 
               </div>
               <div class="col  text-center">
                 <a href="for-each-image.html"><span style="display:flex;justify-content: center;"><img src="Images/ladies-dress-2.jpg" height="250px"></span></a>
@@ -1035,68 +1065,78 @@
           </div>
           <!--recommend end-->
           <!--footer-->
-          <div class="container-fluid mt-5 pt-2 bg-dark text-white">
+          <div class="container-fluid bg-dark text-white">
             <div class="container">
-              <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5">
-                  <a href="#/">
-                    <p style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white" data-aos="slide-right">
-                     Team Members </p>
-                  </a>
-                  <p data-aos="slide-right">Raksha<br>
-                    Riya.<br>
-                    Sandeep Kumar<br>
-                    Rishi Maheshwari.<br></p>
+            <div class="row ">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5">
+                <p style="font-size:20px;text-transform: uppercase;font-weight: 800;" data-aos="slide-right">company name</p>
+                <p data-aos="slide-right">Here you can use rows and<br>
+                to organize your footer content.<br>
+                Lorem ipsum dolor sit amet,<br> 
+                consectetur adipisicing elit.<br></p>
+              </div>
+              <div class="container-fluid mt-5 pt-2 bg-dark text-white">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5">
+                      <a href="#/">
+                        <p style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white" data-aos="slide-right">
+                         Team Members </p>
+                      </a>
+                      <p data-aos="slide-right">Raksha<br>
+                        Riya.<br>
+                        Sandeep Kumar<br>
+                        Rishi Maheshwari.<br></p>
+                    </div>
+                    <div class="col-xl-3 pt-5 hide-girl">
+                      <a href="#/"><span style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
+                          data-aos="zoom-in-left">products</span><br></a>
+                      <p style="margin-top:3%" data-aos="slide-up">Shirts</p>
+                      <p style="margin-top:-3%" data-aos="slide-up">Jeans</p>
+                      <p style="margin-top:-3%" data-aos="slide-up">Child cloths</p>
+                      <!-- <p style="margin-top:-3%;" data-aos="slide-up">M D Bootstrap</p> -->
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 footer  pt-5">
+                      <a href="#/"><span style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
+                          class="text-center" data-aos="zoom-in-left">useful link</span><br></a>
+                      <p style="margin-top:3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
+                      <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
+                      <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
+                      <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5 pb-3">
+                      <a href="#/">
+                        <p style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white" data-aos="slide-left">
+                          contact</p>
+                      </a>
+                      <p data-aos="fade-up"><i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i>&nbsp; Kothri Kalan,
+                        466114</p>
+                      <p data-aos="fade-up"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; rishimaheshwari040@gamil.com</p>
+                      <p data-aos="fade-up"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 9009594537</p>
+                      <p data-aos="fade-up"><i class="fa fa-print" aria-hidden="true"></i>&nbsp; 9009594537</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-xl-3 pt-5 hide-girl">
-                  <a href="#/"><span style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
-                      data-aos="zoom-in-left">products</span><br></a>
-                  <p style="margin-top:3%" data-aos="slide-up">Shirts</p>
-                  <p style="margin-top:-3%" data-aos="slide-up">Jeans</p>
-                  <p style="margin-top:-3%" data-aos="slide-up">Child cloths</p>
-                  <!-- <p style="margin-top:-3%;" data-aos="slide-up">M D Bootstrap</p> -->
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 footer  pt-5">
-                  <a href="#/"><span style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
-                      class="text-center" data-aos="zoom-in-left">useful link</span><br></a>
-                  <p style="margin-top:3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
-                  <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
-                  <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
-                  <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">Work In Progress</p>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5 pb-3">
-                  <a href="#/">
-                    <p style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white" data-aos="slide-left">
-                      contact</p>
-                  </a>
-                  <p data-aos="fade-up"><i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i>&nbsp; Kothri Kalan,
-                    466114</p>
-                  <p data-aos="fade-up"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; rishimaheshwari040@gamil.com</p>
-                  <p data-aos="fade-up"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 9009594537</p>
-                  <p data-aos="fade-up"><i class="fa fa-print" aria-hidden="true"></i>&nbsp; 9009594537</p>
+                <hr style="color:white;width:100%;border:1px solid">
+                <div class="container mt-4 pb-4">
+                  <div class="row">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                      <p><a href="#/" style="color:white">© 2022 Copyright</a><span style="font-weight:600;"><a href="#/"
+                            style="color:white"></a></span></p></a>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 icon-head">
+                      <a href=""><span class="icons-2" style="color:white"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></span></a>
+                      <a href="#/"><span class="icons-3" style="color:white"><i class="fa fa-twitter"
+                            aria-hidden="true"></i></span></a>
+                      <a href="#/"><span class="icons-1" style="color:white"><i class="fa fa-google-plus"
+                            aria-hidden="true"></i></span></a>
+                      <a href="#/"><span class="icons" style="color:white"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></span></a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <hr style="color:white;width:100%;border:1px solid">
-            <div class="container mt-4 pb-4">
-              <div class="row">
-                <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                  <p><a href="#/" style="color:white">© 2022 Copyright</a><span style="font-weight:600;"><a href="#/"
-                        style="color:white"></a></span></p></a>
-                </div>
-                <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 icon-head">
-                  <a href=""><span class="icons-2" style="color:white"><i class="fa fa-facebook"
-                        aria-hidden="true"></i></span></a>
-                  <a href="#/"><span class="icons-3" style="color:white"><i class="fa fa-twitter"
-                        aria-hidden="true"></i></span></a>
-                  <a href="#/"><span class="icons-1" style="color:white"><i class="fa fa-google-plus"
-                        aria-hidden="true"></i></span></a>
-                  <a href="#/"><span class="icons" style="color:white"><i class="fa fa-instagram"
-                        aria-hidden="true"></i></span></a>
-                </div>
-              </div>
-            </div>
-          </div>
           <!--footer-->
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 

@@ -13,7 +13,6 @@
     <body style="background-image:url('Images/login-background.jpg');background-size: cover;">
         <div class="container">
             <div class="container form bg-white pt-5 mt-4 mb-3">
-                                                            <!--change after click on sign up-->
                 <p class="text-center login-heading hide-me">login</p>
                 <div class="container hide-me">
                     <div class="row">
@@ -77,7 +76,10 @@
                         </div>
                     </div>
                 </div>
-                                                                        <!--change it-->
+                  
+                <!--change it-->
+                <form action="" method="post">                                         <!--change after click on sign up-->
+
                 <p class="text-center login-heading show-me">sign up</p>
                 <div class="row show-me">
                     <div class="col mt-4 pl-5 pr-5">
@@ -87,7 +89,7 @@
                                 <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
                             </div>
                             <div class="col-10 pl-0">
-                                <input type="text" placeholder="Type your username" class='first-name'>
+                                <input type="text" placeholder="Type your username" class='first-name' name="name">
                             </div>
                         </div>
                         <hr class="hr-1">
@@ -102,7 +104,7 @@
                                 <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
                             </div>
                             <div class="col-10 pl-0">
-                                <input type="text" placeholder="Type your username" class='last-name'>
+                                <input type="text" placeholder="Type your username" class='last-name' name="Lname">
                             </div>
                         </div>
                         <hr class="hr-1">
@@ -117,7 +119,7 @@
                                 <i class="fa fa-envelope-o" aria-hidden="true" id="user"></i>
                             </div>
                             <div class="col-10 pl-0">
-                                <input type="text" placeholder="Type your username" class='email'>
+                                <input type="text" placeholder="Type your username" class='email' name="email">
                             </div>
                         </div>
                         <hr class="hr-1">
@@ -132,7 +134,7 @@
                                 <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
                             </div>
                             <div class="col-10 pl-0">
-                                <input type="password" placeholder="Type your password" class="password-signup">
+            <input type="password" placeholder="Type your password" class="password-signup" name="password">
                             </div>
                         </div>
                         <hr class="hr-2">
@@ -147,7 +149,7 @@
                                 <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
                             </div>
                             <div class="col-10 pl-0">
-                                <input type="password" placeholder="Type your password" class="confirm-password-signup">
+                                <input type="password" placeholder="Type your password" class="confirm-password-signup" name="c-password">
                             </div>
                         </div>
                         <hr class="hr-2">
@@ -160,6 +162,7 @@
                             <span style="text-transform:capitalize;color:blue">privacy policy</span> </a>
                     </div>
                 </div>
+                
                 <div class="row mt-4 show-me">
                     <div class="col pl-5 pr-5">
                         <a href="login-ecomarce.html"><span class="btn btn-block text-white signup-button">sign up</span></a>

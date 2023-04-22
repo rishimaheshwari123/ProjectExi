@@ -1,0 +1,29 @@
+{
+  "name": "projectexi",
+  "version": "1.0.0",
+  "description": "Front-end for an e-commerce clothes selling website.\r ## About\r 1- It is a responsive webpage containing nice animations. <br />\r 2- Contains a well authenticated contact, login and sinup froms.<br />\r 3- Contains many categories regarding clothes.<br />\r 4- A nice Footer.<br />\r 5- Authenticated Payment Page.<br />\r 5- A nice Cart Page.\r ## Screenshots\r <img src=\"Demo_look/Web_look_1.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_2.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_3.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_4.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_5.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_6.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_7.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_8.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_9.PNG\" width = \"100%\">\r <img src=\"Demo_look/Web_look_10.PNG\" width = \"100%\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishimaheshwari123/ProjectExi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishimaheshwari123/ProjectExi/issues"
+  },
+  "homepage": "https://github.com/rishimaheshwari123/ProjectExi#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
